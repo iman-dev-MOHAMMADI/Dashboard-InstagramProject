@@ -2,16 +2,26 @@
 
 This repository contains a high-performance administrative dashboard built with **Django** and connected to a **MongoDB** database. It is designed to monitor, organize, and analyze data collected from Instagram-related operations. The primary goal is to provide a centralized, fast, and efficient interface for viewing critical operational data, such as session cookies, server responses, and other collected metrics.
 
-## 🖼️ Dashboard Preview
+## 🖼️ Dashboard Preview Gallery
 
-A preview of the main dashboard interface, showcasing the data visualization and management capabilities.
+Here are a few screenshots showcasing different views of the dashboard:
 
-![Dashboard Preview](assets/dashboard-preview.png)
-*(Please replace this with a screenshot of your actual dashboard. Create an `assets` folder in your project root to store it.)*
+<table align="center">
+  <tr>
+    <td align="center"><strong>Main Login & Overview</strong></td>
+    <td align="center"><strong>Data Table View</strong></td>
+    <td align="center"><strong>Detailed Record View</strong></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screan_1.jpg" alt="Main dashboard overview screen" width="260"></td>
+    <td><img src="assets/screan_2.jpg" alt="Detailed data table with filters" width="260"></td>
+    <td><img src="assets/screan_3.jpg" alt="Analytics or single record view" width="260"></td>
+  </tr>
+</table>
 
 ## 🚀 Key Features
 
--   **Optimized MongoDB Integration:** Directly reads from a NoSQL MongoDB database, ensuring fast, real-time data retrieval and display, ideal for handling large volumes of unstructured or semi-structured data.
+-   **Optimized MongoDB Integration:** Directly reads from a NoSQL MongoDB database, ensuring fast, real-time data retrieval and display, ideal for handling large volumes of data.
 -   **Centralized Data Management:** Provides a single source of truth for all operational data, making it easy to track and organize information without querying the database manually.
 -   **Advanced Search & Filtering:** Implements powerful search and filtering capabilities, allowing users to quickly isolate and analyze specific data points.
 -   **Secure & Scalable Backend:** Leverages the robust Django framework for security, authentication, and a modular architecture that is easy to scale and maintain.
@@ -22,55 +32,8 @@ A preview of the main dashboard interface, showcasing the data visualization and
 -   **Backend:** Django
 -   **Database:** MongoDB
 -   **Database Connector:** Djongo (or specify the Python driver you used, e.g., PyMongo)
--   **Frontend:** HTML, CSS, JavaScript *(You can add libraries like Bootstrap, Chart.js, etc., if you used them)*
+-   **Frontend:** HTML, CSS, JavaScript *(Feel free to add libraries like Bootstrap, Chart.js, etc.)*
 
-## 🔧 Installation and Setup
-
-Follow these steps to set up the project locally.
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/Dashboard-InstagramProject.git
-    cd Dashboard-InstagramProject
-    ```
-
-2.  **Create and Activate a Virtual Environment:**
-    ```bash
-    # For macOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
-
-    # For Windows
-    python -m venv venv
-    venv\Scripts\activate
-    ```
-
-3.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Ensure you have a `requirements.txt` file by running `pip freeze > requirements.txt` in your activated environment.)*
-
-4.  **Configure Environment Variables:**
-    Create a `.env` file in the project's root directory and add your configuration details. This keeps your sensitive credentials secure.
-    ```env
-    # .env file example
-    SECRET_KEY='your-unique-and-secret-django-key'
-    MONGO_DB_NAME='your_instagram_project_db'
-    MONGO_HOST='mongodb://localhost:27017/'
-    DEBUG=True
-    ```
-
-5.  **Apply Migrations and Create a Superuser:**
-    ```bash
-    python manage.py migrate
-    python manage.py createsuperuser
-    ```
-
-6.  **Run the Development Server:**
-    ```bash
-    python manage.py runserver
-    ```
 
 ## 🤝 Contributing
 
