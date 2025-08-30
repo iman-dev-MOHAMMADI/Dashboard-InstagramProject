@@ -13,9 +13,9 @@ Here are a few screenshots showcasing different views of the dashboard:
     <td align="center"><strong>Detailed Record View</strong></td>
   </tr>
   <tr>
-    <td><img src="assets/screan_1.jpg" alt="Main dashboard overview screen" width="260"></td>
-    <td><img src="assets/screan_2.jpg" alt="Detailed data table with filters" width="260"></td>
-    <td><img src="assets/screan_3.jpg" alt="Analytics or single record view" width="260"></td>
+    <td><img src="screan_1.jpg" alt="Main dashboard overview screen" width="260"></td>
+    <td><img src="screan_2.jpg" alt="Detailed data table with filters" width="260"></td>
+    <td><img src="screan_3.jpg" alt="Analytics or single record view" width="260"></td>
   </tr>
 </table>
 
