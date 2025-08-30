@@ -8,7 +8,7 @@ Here are a few screenshots showcasing different views of the dashboard:
 
 <table align="center">
   <tr>
-    <td align="center"><strong>Main Login & Overview</strong></td>
+    <td align="center"><strong>Main & Overview</strong></td>
     <td align="center"><strong>Data Table View</strong></td>
     <td align="center"><strong>Detailed Record View</strong></td>
   </tr>
